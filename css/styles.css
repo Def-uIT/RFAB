@@ -15,5 +15,19 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     padding: 20px;
-    
+    justify-content: center;
+}
+
+.header_part{
+    display: flex;
+    flex:1;
+}
+
+.header_social_links{
+    display: flex;
+    flex:1;
+}
+
+a {
+    text-decoration: none;
 }
