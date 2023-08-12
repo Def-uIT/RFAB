@@ -12,20 +12,40 @@ body {
 }
 
 .header {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.88);
     display: flex;
-    padding: 20px;
-    justify-content: center;
-}
-
-.header_part{
-    display: flex;
-    flex:1;
+    padding: 25px;
+    align-items: center;
+    height: 30px;
 }
 
 .header_social_links{
     display: flex;
-    flex:1;
+    margin-left: 60px;
+    gap: 20px;
+}
+
+.header_social_links img {
+    height: 25px;
+}
+
+.header_logo {
+    margin-left: 340px;
+}
+
+.header_logo img {
+    height: 30px;
+}
+
+.header_menu_links {
+    display: flex;
+    margin-left: 250px;
+    gap: 20px;
+    color:rgb(255, 251, 251)
+}
+
+.header_menu_links a {
+    color:rgb(255, 251, 251);
 }
 
 a {
