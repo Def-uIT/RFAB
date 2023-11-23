@@ -105,3 +105,13 @@ a {
     flex-basis: 100%;
 }
 
+footer {
+    border-top: 2px solid white;
+    color: solid white;
+    margin-top: -100px;
+}
+
+footer p {
+    color: white;
+}
+
